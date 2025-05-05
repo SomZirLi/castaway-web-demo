@@ -5,7 +5,7 @@ export const getStyles = async () => {
   try {
     const response = await fetch(STYLES_JSON_URL);
     if (!response.ok) {
-      throw new Error(`Field json: ${response.status}`)
+      throw new Error('Field json: ',response.status)
     }
 
     const saveStyles = await response.json();

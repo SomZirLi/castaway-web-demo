@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         try {
             let rows=0;
             const response = await fetch('data/comment.json')
-            if (!response.ok) throw new Error(`Http error! status: ${response.status}`);
+            if (!response.ok) throw new Error('Http error! status: ',response.status);
             const data = await response.json()
 
             if (!Array.isArray(data) || data.length === 0) {
