@@ -5,9 +5,6 @@ footer {
     justify-content: space-between;
 }
 
-footer .logo {
-    width: 25%;
-}
 
 footer .logo .contacts {
     margin: 3% 0;
@@ -16,10 +13,14 @@ footer .logo .contacts {
 footer .logo .contacts a img {
     margin: 1%;
 }
-
-footer nav {
-    width: 16%;
+footer .nav{
     margin: 2%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .nav nav{
+    margin: 0 5% ;
 }
 
 footer nav ul li {
@@ -27,7 +28,7 @@ footer nav ul li {
 }
 
 footer .socialMedia {
-    margin: 4% 2%;
+    margin: 1% 4% ;
     width: 16%;
     height: 100%;
     display: flex;

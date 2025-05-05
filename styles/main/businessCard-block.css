@@ -1,12 +1,12 @@
 main .businessCard-block{
     margin: 6% 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: start;
     align-items: center;
 }
 
 main .businessCard-block .left {
     width: 45%;
-    float: left;
     margin: 10% 2%;
 }
 main .businessCard-block .left .arrow{
@@ -41,6 +41,5 @@ main .businessCard-block .left > *{
 
 main .businessCard-block .right{
     width: 45%;
-    float: right;
     margin: 2% 3%;
 }

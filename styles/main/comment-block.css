@@ -29,10 +29,6 @@ main .comment-block .commentsTable .row .col{
 }
 
 
-main .comment-block .commentsTable .row .col h4{
-    font-size: 22px;
-}
-
 main .comment-block .commentsTable .row .col img{
     margin: 0 0.5%;
     width: 15px;
