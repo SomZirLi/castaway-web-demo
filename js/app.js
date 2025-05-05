@@ -1,4 +1,4 @@
-import { getStyles } from "./storage.js";
+import { getStyles } from "./loadStyles.js";
 
 const appStyle = (stylesData) => {
     const root = document.documentElement;
