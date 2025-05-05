@@ -1,0 +1,8 @@
+{
+    "--color-maintext": "#ffffff",
+    "--color-background": "#191919",
+    "--color-primary": "#000000",
+    "--color-secondary": "#118da8",
+    "--color-hover": "#8b0e8b",
+    "--color-active":"#ea2eea"
+}

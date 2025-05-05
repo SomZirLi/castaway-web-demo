@@ -1,0 +1,46 @@
+main .businessCard-block{
+    margin: 6% 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+main .businessCard-block .left {
+    width: 45%;
+    float: left;
+    margin: 10% 2%;
+}
+main .businessCard-block .left .arrow{
+    width: 13%;
+    margin: 3%;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    padding: 1%;
+    aspect-ratio: 1/1;
+}
+main .businessCard-block .left .arrow:hover{
+    background-color:var(--color-hover) ;
+}
+main .businessCard-block .left .arrow:active{
+    background-color:var(--color-active) ;
+}
+
+
+main .businessCard-block .left .arrow img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-50%,-50%);
+}
+
+
+main .businessCard-block .left > *{
+    margin: 4% 0;
+}
+
+main .businessCard-block .right{
+    width: 45%;
+    float: right;
+    margin: 2% 3%;
+}

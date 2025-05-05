@@ -1,0 +1,49 @@
+.textColorBlue {
+    color: var(--color-secondary);
+}
+
+.buttonBlue {
+    background-color: var(--color-secondary);
+    color: var(--color-maintext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.buttonGray {
+    background-color: var(--color-background);
+    color: var(--color-maintext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.custom-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+a:hover{
+    color: var(--color-hover);
+}
+
+button a:hover{
+    color: var(--color-maintext);
+}
+
+button:hover{
+    background-color:var(--color-hover) ;
+}
+
+a:active{
+    color: var(--color-active) !important;
+}

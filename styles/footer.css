@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    width: 25%;
+}
+
+footer .logo .contacts {
+    margin: 3% 0;
+}
+
+footer .logo .contacts a img {
+    margin: 1%;
+}
+
+footer nav {
+    width: 16%;
+    margin: 2%;
+}
+
+footer nav ul li {
+    margin: 4% 0;
+}
+
+footer .socialMedia {
+    margin: 4% 2%;
+    width: 16%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .socialMedia a img{
+    width: 80%;
+}

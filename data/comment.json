@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "star": 4,
+        "text": "I can’t recommend this podcast enough",
+        "autor": "Betty Lacey"
+    },
+    {
+        "id": 1,
+        "star": 5,
+        "text": "Jacob is the best in the business",
+        "autor": "Adam Driver"
+    },
+    {
+        "id": 2,
+        "star": 5,
+        "text": "A wealth of audio knowledge",
+        "autor": "Marcus Brown"
+    },
+    {
+        "id": 3,
+        "star": 3,
+        "text": "Every episode is a gem!",
+        "autor": "Jessica Knowl"
+    },
+    {
+        "id": 4,
+        "star": 4,
+        "text": "Whoa whoa, let me take some notes!",
+        "autor": "Scott Adams"
+    },
+    {
+        "id": 5,
+        "star": 4,
+        "text": "I’ve upped my game considerably since I started listening",
+        "autor": "Steven Blast"
+    }
+]
