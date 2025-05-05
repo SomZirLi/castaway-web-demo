@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     async function loadComments() {
         try {
             let rows=0;
-            const response = await fetch('/data/comment.json')
+            const response = await fetch('data/comment.json')
             if (!response.ok) throw new Error('Http error! status: ${response.status}');
             const data = await response.json()
 
